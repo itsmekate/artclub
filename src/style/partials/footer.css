@@ -1,0 +1,35 @@
+footer{
+  background-color: #9b5d90;
+  color: white;
+}
+input {
+  margin-top: 20px;
+  padding: 5px;
+  border: solid 2px white;
+  border-radius: 5px;
+}
+i {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.address {
+  padding-top: 20px;
+}
+.socials {
+  float: right;
+  margin-right: 15px;/* right instead left*/
+  height: 20px;/*need size*/
+  width: 20px;/*need size*/
+}
+.message{
+  width: 100%;
+}
+.info-f{}
+.info-b{}
+.map {
+  padding-top: 20px;
+}
+.form-control{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}

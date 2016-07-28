@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: url('../../fonts/bootstrap/glyphicons-halflings-regular.eot');
+  src: url('../../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../fonts/bootstrap/glyphicons-halflings-regular.woff2') format('woff2'), url('../../fonts/bootstrap/glyphicons-halflings-regular.woff') format('woff'), url('../../fonts/bootstrap/glyphicons-halflings-regular.ttf') format('truetype'), url('../../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'); }
+  
+@font-face{
+  font-family:"Roboto Light";
+  src: url('../../fonts/Roboto-Light_1.ttf');
+}
+@font-face{
+  font-family:"Roboto Regular";
+  src: url('../../fonts/Roboto-Regular_0.ttf');
+}
+@font-face{
+  font-family:"Roboto Thin";
+  src: url('../../fonts/Roboto-Thin_1.ttf');
+}
+
+html{
+    background: url("../img/background.png");
+}
+.main-block-paddings{
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.main-block-style{
+  background-color: white;
+  display: block;
+  margin-top: 50px;
+}
+.row{
+  margin: 0 !important;
+}
