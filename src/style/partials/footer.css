@@ -1,35 +1,82 @@
-footer{
+footer {
   background-color: #9b5d90;
-  color: white;
+  width: 100% !important;
+  padding: 10px;
+}
+label {
+  width: 100%;
+  display: inline;
+}
+.info-f{
+  width: 100%;
 }
 input {
   margin-top: 20px;
   padding: 5px;
   border: solid 2px white;
   border-radius: 5px;
-}
-i {
-  margin-left: 20px;
-  margin-right: 5px;
+  background-color: #9b5d90;
+  color: white !important;
 }
 .address {
   padding-top: 20px;
 }
 .socials {
-  float: right;
-  margin-right: 15px;/* right instead left*/
+  margin-right: 15px;
+  margin-top: 20px;
+  /*   temporary fix */
+  /*   need to center icons */
+  /* right instead left*/
   height: 20px;/*need size*/
   width: 20px;/*need size*/
 }
 .message{
   width: 100%;
+  padding: 5px;
+  margin-top: 20px;
+  border: solid 2px white;
+  border-radius: 5px;
+  background-color: #9b5d90;
+  color: white !important;
 }
-.info-f{}
 .info-b{}
 .map {
   padding-top: 20px;
+  margin-bottom: 20px;
+  max-height: 350px;
 }
 .form-control{
   margin-bottom: 10px;
   margin-top: 10px;
+}
+.inform {
+  color: white;
+  margin: 5%;
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.5;
+}
+i {
+  margin:1%;
+}
+.submit {
+  float: right;
+}
+.to-center{
+  text-align: center;
+}
+/*setting placeholder color*/
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color:    #fff;
+  opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color:    #fff;
+  opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:    #fff;
 }

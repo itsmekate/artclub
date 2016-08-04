@@ -1,20 +1,30 @@
-<div class="carousel">
-		<div id="myCarousel" class="carousel">
-			<!-- Маркеры картинок в карусельке. Все ок, маркеры появились, но они не переключаются, причину определить пока не в состоянии. Мало того, при переключении самих слайдов маркеры переключаются только на первом кругу, на втором текущее состояние слайда в маркере просто пропадает -->
-			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>
+<div class="carousel container_carousel">
+	<div id="myCarousel" class="carousel">
+		<!-- Маркеры картинок в карусельке. Все ок, маркеры появились, но они не переключаются, причину определить пока не в состоянии. Мало того, при переключении самих слайдов маркеры переключаются только на первом кругу, на втором текущее состояние слайда в маркере просто пропадает -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
+			<li data-target="#myCarousel" data-slide-to="5"></li>
+		</ol>
 
-			<!-- Картинки в карусельке -->
-			<div class="carousel-inner">
-				<div class="active item"><img src="img/teacher.png"></div>
-				<div class="item"><img src="img/logo.png"></div>
-				<div class="item"><img src="img/logo.png"></div>
-			</div>
-			<!-- Навигационные элементы. Сначала стояли две верхние стрелочки, какая-то абракадабра, положение которой я никак не мог задать. Поэтому я добавил в карусель-контролер по спану с иконкой стрелки, которая встала четко по середине -->
-			<a class="carousel-control left" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-			<a class="carousel-control right" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></a>
+		<!-- Картинки в карусельке -->
+		<div class="carousel-inner">
+			<div class="active item first-img"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
+			<div class="item"></div>
 		</div>
+		<!-- Навигационные элементы. Сначала стояли две верхние стрелочки, какая-то абракадабра, положение которой я никак не мог задать. Поэтому я добавил в карусель-контролер по спану с иконкой стрелки, которая встала четко по середине -->
+		<!-- <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+		</a>
+		<a class="carousel-control right" href="#myCarousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right">
+		</a>-->
 	</div>
+</div>
