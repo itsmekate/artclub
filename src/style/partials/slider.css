@@ -2,3 +2,17 @@
 	background-image: url('../../img/kid.jpg') !important;
 	background-position: top center;
 }
+.carousel-control{
+  width: 0;
+}
+ol{
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+.carousel-indicators .active {
+    background-color: #FDF;
+}
+.carousel-indicators li {    
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+}    

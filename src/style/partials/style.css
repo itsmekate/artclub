@@ -25,6 +25,7 @@ body{
 	background: url("../../img/background.png") repeat-x;
 	background-attachment: fixed;
 	padding-bottom: 0px !important;
+	padding-top: 90px;
 }
 
 .main-block-paddings{

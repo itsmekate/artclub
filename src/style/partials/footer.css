@@ -25,7 +25,7 @@ input {
   margin-right: 15px;
   margin-top: 20px;
   /*   temporary fix */
-  /*   need to center icons */
+/*   need to center icons */
   /* right instead left*/
   height: 20px;/*need size*/
   width: 20px;/*need size*/
@@ -52,7 +52,7 @@ input {
 .inform {
   color: white;
   margin: 5%;
-  font-size: 18px;
+  font-size: 18px; 
   text-align: center;
   line-height: 1.5;
 }
@@ -64,19 +64,19 @@ i {
 }
 .to-center{
   text-align: center;
-}
+} 
 /*setting placeholder color*/
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-  color:    #fff;
+    color:    #fff;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-  color:    #fff;
-  opacity:  1;
+   color:    #fff;
+   opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-  color:    #fff;
-  opacity:  1;
+   color:    #fff;
+   opacity:  1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color:    #fff;
+   color:    #fff;
 }

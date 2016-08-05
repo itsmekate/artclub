@@ -1,35 +1,49 @@
 .foto{
-    width: 305px;
-    height: 200px;
-    overflow: hidden;
-    /*border: 1px solid red;*/
-    margin-bottom: 21px;
-    margin-left: 10px;
+	margin-left: 10px;
+	margin-bottom: 5px;
 }
 .programms_name{
     display:inline-block;
     position:absolute;
-    top: 75px;
-    left:130px;
+    transform: translate(-50%, -50%);
+    top: 50%;   
+    left:50%;
     font-size: 24px;
     color: white;
+    text-align: center;
 }
-.foto_day{
-    display:inline-block;
-    position: relative;
-    top: 0px;
-    left:-55px;
-    font-size: 24px;
-    color: white;
+.programms_name_mini{
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  font-size: 24px;
+  color: white;
+}
+.img-responsive {
+  width: 100%;
 }
 .foto_sadik {
-    /*border: 1px solid green;*/
-    width: auto;
-    display:inline-block;
+  width: 100%;
+  height: auto;
+  display:inline-block;
 }
 .sadik_text{
-    float: right;
-    display:inline-block;
+  float: right;
+  display:inline-block;
     position: relative;
     right: 5px;
+}
+.sadik_padding{
+   padding: 0px;
+    padding-right: 22px;
+}
+.sadik_font{
+  font-size: 1.7em;
+}
+.englishh{
+  font-size: 2.75em;
+  margin-right: 30px;
+}
+.sadik_prod{
+
 }

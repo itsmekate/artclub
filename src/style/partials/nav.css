@@ -1,14 +1,22 @@
 .navbar-decor{
-  background: #9b5d90 !important;
+  background:rgba(155,93,144, .55);
 }
 .logo-size{
   height: 40px;
-  margin-top: 6px;
+  margin-top: 3px;
   padding-left: 15px;
 }
 .menu-title{
   color: white !important;
 }
+.ul_margin_top{
+  margin-top: 10px;
+}
+.form-control{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
 .navbar-toggle{
   margin-right: -5px;
 }
@@ -22,18 +30,3 @@
   color:#711663 !important;
 }
 
-ol {
-  margin-top: 0;
-  margin-bottom: -10px;
-}
-.carousel-indicators .active {
-  /*width: 12px;
-  height: 12px;
-  margin: 0;*/
-  background-color: #FDF;
-}
-.carousel-indicators li {
-
-  background-color: #000 \9;
-  background-color: rgba(0, 0, 0, 0);
-}
