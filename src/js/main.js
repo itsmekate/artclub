@@ -7,8 +7,18 @@
 //= ../../node_modules/bootstrap/js/carousel.js
 //= ../../node_modules/bootstrap/js/dropdown.js
 
+//= libs/responsiveslides.js
+//= libs/responsiveslides-call.js
+//= libs/jquery.maskedinput.min.js
+
 
 /*
  * Custom
  */
-//= partials/app.js
+
+$(document).ready(
+    function() {
+//= partials/slider.js
+//= partials/form-validation.js
+//= partials/modal-map.js
+    });

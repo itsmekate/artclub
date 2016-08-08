@@ -1,3 +1,16 @@
+@font-face{
+  font-family:"Roboto-Light";
+  src: url(fonts/Roboto-Light_1.ttf);
+}
+@font-face{
+  font-family:"Roboto-Regular";
+  src: url(fonts/Roboto-Regular_0.ttf);
+}
+
+.collective h2{
+  font-family: "Roboto-Regular";
+  font-size: 30px;
+}
 .employe-photo {
   margin: 0 auto;
   height: 230px;
@@ -6,13 +19,9 @@
 .unlined-title {
   border-top: 1px solid grey;
   padding-top: 20px;
-  
 }
 p {
-  font-family: Roboto;
+  font-family: "Roboto-Light";
+  font-size: 16px;
 }
-
-.collective h2{
-  font-family: "Roboto Regular";
-  font-size: 30px;
-}
+.bigger {font-size: 24px;}

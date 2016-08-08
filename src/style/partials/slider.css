@@ -1,13 +1,9 @@
-.first-img{
-	background-image: url('../../img/kid.jpg') !important;
-	background-position: top center;
-}
 .carousel-control{
   width: 0;
 }
 ol{
     margin-top: 0;
-    margin-bottom: -10px;
+    margin-bottom: 0px;
 }
 .carousel-indicators .active {
     background-color: #FDF;
@@ -15,4 +11,80 @@ ol{
 .carousel-indicators li {    
     background-color: #000 \9;
     background-color: rgba(0, 0, 0, 0);
-}    
+}
+
+
+
+
+.rslides {
+    position: relative;
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+    max-height: 600px;
+    padding: 0;
+    margin: 0;
+}
+
+.rslides li {
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    display: none;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.rslides li:first-child {
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.rslides img {
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+}
+
+.transparent-btns_tabs {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.transparent-btns_tabs li{
+    display: inline;
+    float: none;
+    _float: left;
+    *float: left;
+    margin-right: 5px;
+}
+
+
+.transparent-btns_tabs a
+ {
+    text-indent: -9999px;
+    overflow: hidden;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #cf6cdc;
+    background: rgba(220, 168, 220, 0.57);
+    display: inline-block;
+    _display: block;
+    *display: block;
+    -webkit-box-shadow: inset 0 0 2px 0 rgba(220, 168, 220, 0.3);
+    -moz-box-shadow: inset 0 0 2px 0 rgba(220, 168, 220, 0.3);
+    box-shadow: inset 0 0 2px 0 rgba(220, 168, 220, 0.3);
+    width: 15px;
+    height: 15px;
+}
+
+
+.transparent-btns_here a{
+    background: #a259af;
+    background: rgba(162, 89, 175, 0.8);
+}

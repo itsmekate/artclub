@@ -22,21 +22,21 @@ html{
 }
 
 body{
-	background: url("../../img/background.png") repeat-x;
+	background: url("../../img/background.png") repeat;
 	background-attachment: fixed;
 	padding-bottom: 0px !important;
-	padding-top: 90px;
+	padding-top: 110px !important;
 }
 
 .main-block-paddings{
-  padding: 10px 20px;
+  padding: 20px 20px;
   box-sizing: border-box;
 }
 .main-block-style{
   background-color: white !important;
   display: block;
-  margin-top: 30px;
-  box-shadow: 0 0 15px rgbs(0,0,0,0.75);
+  margin-top: 40px;
+  box-shadow: 0 0 25px rgbs(0,0,0,1);
 }
 .row{
   margin: 0 !important;

@@ -1,12 +1,13 @@
 .navbar-decor{
-  background:rgba(155,93,144, .55);
+  background:rgba(155,93,144, .85);
 }
 .logo-size{
-  height: 40px;
-  margin-top: 3px;
+  height: 50px;
+
   padding-left: 15px;
 }
 .menu-title{
+  font-size: 18px;
   color: white !important;
 }
 .ul_margin_top{
