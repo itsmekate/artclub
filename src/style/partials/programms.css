@@ -3,14 +3,14 @@
 	margin-bottom: 5px;
 }
 .programms_name{
-    display:inline-block;
-    position:absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;   
-    left:50%;
-    font-size: 24px;
-    color: white;
-    text-align: center;
+  display:inline-block;
+  position:absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;   
+  left:50%;
+  font-size: 24px;
+  color: white;
+  text-align: center;
 }
 .programms_name_mini{
   position: absolute;
@@ -30,20 +30,21 @@
 .sadik_text{
   float: right;
   display:inline-block;
-    position: relative;
-    right: 5px;
+  position: relative;
+  right: 5px;
 }
 .sadik_padding{
-   padding: 0px;
-    padding-right: 22px;
+  padding: 0px;
+  padding-right: 22px;
 }
 .sadik_font{
-  font-size: 1.7em;
+ /* font-size: 1.5em;*/
+ font-size: 18px;
 }
 .englishh{
   font-size: 2.75em;
   margin-right: 30px;
 }
 .paddings-scale{
-   padding: 15px !important;
+  padding: 15px !important;
 }
