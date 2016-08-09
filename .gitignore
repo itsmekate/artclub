@@ -1,7 +1,13 @@
-/bower_components/*
-/build/*
-/node_modules/*
 bower.json
 gulpfile.js
 package.json
 .idea
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.DS_Store
+.idea
+build/
+
