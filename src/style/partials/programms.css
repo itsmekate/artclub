@@ -22,10 +22,56 @@
 .img-responsive {
   width: 100%;
 }
-.foto_sadik {
+.foto_background{
   width: 100%;
   height: auto;
   display:inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.foto_sadik {
+  background-image: url('../../img/summercamp1.png');
+}
+.foto_sadik:hover {
+  background-image: url('../../img/summercamp.png');
+}
+.foto_gpd{
+  background-image: url('../../img/gpd.png');
+}
+.foto_gpd:hover{
+  background-image: url('../../img/gruppday.png');
+}
+
+.foto_fp{
+  background-image: url('../../img/FR.png');
+}
+.foto_fp:hover{
+  background-image: url('../../img/sports.png');
+}
+
+.foto_rpon{
+  background-image: url('../../img/osvit.png');
+}
+.foto_rpon:hover{
+  background-image: url('../../img/early.png');
+}
+
+.foto_dp{
+  background-image: url('../../img/dp.png');
+}
+.foto_dp:hover{
+  background-image: url('../../img/pre-school.png');
+}
+
+.foto_ts{
+  background-image: url('../../img/ts.png');
+}
+.foto_ts:hover{
+  background-image: url('../../img/hobby.png');
+}
+
+.foto_display{
+  opacity: 0%;
 }
 .sadik_text{
   float: right;
