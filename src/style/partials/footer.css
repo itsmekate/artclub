@@ -115,3 +115,6 @@ input {
   background-color: #9b5d90;
   color: white !important;
 }
+textarea {
+  resize: none;
+}
