@@ -1,5 +1,5 @@
 $(".rslides").responsiveSlides({
-    auto: false,
+    auto: true,
     pager: true,
     speed: 500,
     namespace: "transparent-btns"
