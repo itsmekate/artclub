@@ -18,14 +18,15 @@
 
 html{
 	margin:0;
-	padding:0;
+	/*padding:0;*/
+  padding-top: 110px !important;
 }
 
 body{
 	background: url("../../img/background.png") repeat;
 	background-attachment: fixed;
 	padding-bottom: 0px !important;
-	padding-top: 110px !important;
+	
 }
 
 .main-block-paddings{
@@ -37,6 +38,7 @@ body{
   display: block;
   margin-top: 40px;
   box-shadow: 0 0 25px rgbs(0,0,0,1);
+
 }
 .row{
   margin: 0 !important;

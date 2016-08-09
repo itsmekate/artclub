@@ -1,3 +1,7 @@
+bower.json
+gulpfile.js
+package.json
+.idea
 logs/*
 !.gitkeep
 node_modules/
@@ -6,3 +10,4 @@ tmp
 .DS_Store
 .idea
 build/
+
