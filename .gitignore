@@ -1,0 +1,11 @@
+bower.json
+gulpfile.js
+package.json
+.idea
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.DS_Store
+build/
