@@ -9,3 +9,6 @@ bower_components/
 tmp
 .DS_Store
 build/
+*.html
+template/
+!src/template/
