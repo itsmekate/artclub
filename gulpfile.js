@@ -25,7 +25,7 @@ var path = {
     src: { 
         html: 'src/**/*.html',
         js: 'src/js/**/*.js',
-        style: 'src/style/**/*.css',
+        style: 'src/style/**/*.scss',
         img: 'src/img/**/*.*', 
         fonts: 'src/fonts/**/*.*'
     },
@@ -41,7 +41,7 @@ var path = {
 
 var config = {
     server: {
-        baseDir: "./build"
+        baseDir: "./"
     },
     tunnel: true,
     host: 'localhost',
