@@ -50,3 +50,9 @@ body{
 	min-height: 100%;
 	min-width: 100%;
 }
+.fixed-clip{
+  padding-top: 90px;
+  margin-top: -75px;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}

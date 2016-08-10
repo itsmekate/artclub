@@ -16,7 +16,7 @@ var gulp = require('gulp'),
 	
 var path = {
     build: { 
-        html: 'build/',
+        html: "",
         js: 'build/js/',
         css: 'build/css/',
         img: 'build/img/',
@@ -24,7 +24,7 @@ var path = {
     },
     src: { 
         html: 'src/**/*.html',
-        js: 'src/js/main.js',
+        js: 'src/js/**/*.js',
         style: 'src/style/main.scss',
         img: 'src/img/**/*.*', 
         fonts: 'src/fonts/**/*.*'
@@ -41,7 +41,7 @@ var path = {
 
 var config = {
     server: {
-        baseDir: "./build"
+        baseDir: "./"
     },
     tunnel: true,
     host: 'localhost',
