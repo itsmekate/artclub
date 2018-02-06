@@ -1,0 +1,119 @@
+body{
+    background-color: #fff;
+    height: 100vh;
+    background-image: url(img/hand.png);
+    background-repeat: no-repeat;
+    background-size: 53vw;
+}
+@font-face {
+    font-family: koliko;
+    src: url(css/koliko-Bold.ttf);
+}
+@import url('https://fonts.googleapis.com/css?family=Lato:900');
+.logo {
+    width:6vw;
+    height: 4vh;
+    margin-left: 3vw;
+}
+.main-text {
+    font-size: 1em;
+    margin-left: 49vw;
+    margin-top: 7vh;
+}
+.large-text {
+    font-size: 5em;
+    font-family: koliko, sans-serif;
+    latter-spacing: 0;
+    margin-top: 12vh;
+}
+.lt-1 mark{
+    background-color: #fff;
+    color: rgb(96, 12, 205);
+}
+.lt-2{
+    margin-top: -13vh;
+}
+.action-btn {
+    height: 63px;
+    width: 216px;
+    background-color: rgb(96, 12, 205);
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    border-radius: 45px;
+    margin-top: 7vh;
+}
+ul {
+    type: none;
+}
+li:nth-child(2) {
+    margin-left: 38vw;
+}
+a {
+    font-size: 1em;
+    style: none;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    border-bottom: solid 2px #fff;
+}
+a:hover{
+    color: black;
+    border-bottom: solid 2px rgb(96, 12, 205);
+}
+.menu {
+    margin-top: 7vh;
+}
+.main-section {
+    margin-top: 0;
+}
+.begin {
+    margin-top: 0;
+    height: 1px;
+}
+.question-btn{
+    margin-left: 2vw;
+    color: rgb(96, 12, 205);
+    border-radius: 100%;
+    height: 63px;
+    width: 63px;
+    background-color: rgb(216, 233, 239);
+}
+.line {
+    margin-top: 14vh;
+    display: inline-block;
+    width: 6vw;
+    margin-right: 2vw;
+    border-bottom: solid 2px rgb(216, 233, 239);
+}
+.line.active{
+    border-bottom: solid 2px rgb(96, 12, 205);
+}
+.ln1{
+    margin-left: 32vw;
+}
+@media screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    body{
+        color: #3adb76;
+        background-size: 100vh;
+    }
+    li:nth-child(2) {
+        margin-left: 20vw;
+    }
+}
+}
+@media screen and (min-device-width : 1178px) and (max-device-width : 1024px) {
+    li:nth-child(2) {
+        margin-left: 20vw;
+    }
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    body {
+
+        background-size: 100vw;
+        background-image: none;
+    }
+
+    li:nth-child(2) {
+        margin-left: 0;
+    }
+}
