@@ -1,0 +1,40 @@
+/* body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+  main {
+    flex: 1 0 auto;
+  }*/
+/*.about-us
+{
+	width: 98vw;
+	margin-top: 30px;
+}*/
+.col {
+  float:none; /* disable the float */
+  display: inline-block; /* make blocks inline-block */
+  text-align: initial; /* restore text-align to default */
+}
+.services img
+{
+  height: 160px;
+}
+h2
+{
+  font-size: 32px;
+}
+.question
+{
+ padding: 20px;
+ margin-top: 30px;
+ margin-bottom: 70px;
+}
+.input-field input:focus + label {
+   color: #fff !important;
+ }
+ /* label underline focus color */
+.row .input-field input:focus {
+   border-bottom: 1px solid #fff !important;
+   box-shadow: 0 1px 0 0 #fff !important
+ }
