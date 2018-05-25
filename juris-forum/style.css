@@ -1,40 +1,108 @@
-/* body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
-  main {
-    flex: 1 0 auto;
-  }*/
-/*.about-us
+h1
 {
-	width: 98vw;
-	margin-top: 30px;
-}*/
-.col {
-  float:none; /* disable the float */
-  display: inline-block; /* make blocks inline-block */
-  text-align: initial; /* restore text-align to default */
+  font-weight: bold;
+  font-size: 28pt;
 }
-.services img
+
+.tabs-vertical .tabs {
+  height: auto;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  display: -webkit-flex;
+  display: flex;
+}
+.tabs-vertical .tab {
+  margin-left: -25px;
+  text-align: left;
+  width: 70%;
+}
+.tabs-vertical .tab .active {
+  -moz-transition: border-color 0.5s ease;
+  -o-transition: border-color 0.5s ease;
+  -webkit-transition: border-color 0.5s ease;
+  transition: border-color 0.5s ease;
+  border-right: 3px solid #424242;
+}
+.tabs-vertical .tab :hover {
+  border-right: 3px solid #eeeeee;
+}
+.tabs-vertical .indicator {
+  display: none;
+}
+
+.main
 {
-  height: 160px;
+  height: 86.5vh;
 }
-h2
+
+#questions .card
 {
-  font-size: 32px;
+ padding: 25px;
 }
-.question
+#questions .card-title
 {
- padding: 20px;
- margin-top: 30px;
- margin-bottom: 70px;
+  font-size: 18pt;
+  font-weight: bold;
 }
-.input-field input:focus + label {
-   color: #fff !important;
- }
- /* label underline focus color */
-.row .input-field input:focus {
-   border-bottom: 1px solid #fff !important;
-   box-shadow: 0 1px 0 0 #fff !important
- }
+
+/* label color */
+   .input-field label {
+     color: #000;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+    color: #424242;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid black;
+     box-shadow: 0 1px 0 0 black ;
+   }
+   /* valid color */
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid green;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid red;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #000;
+   }
+
+
+.articles {
+  display: inline-block;
+  /*flex-wrap: wrap;*/
+  font-size: 12pt;
+  height: 150px;
+}
+
+.news {
+  width: 70px;
+  height: 50px;
+  margin: 5px;
+  padding: 30px;
+  border: 1px solid lightgrey;
+}
+
+#map-canvas{
+  height: 500px;
+  width: 500px;
+  border: 3px solid black;
+}
+
+.icons i
+{
+  margin-left: 90px;
+}
+
+.subs p
+{
+  display: inline-block;
+  margin-left: 100px;
+}
