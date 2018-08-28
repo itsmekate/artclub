@@ -1,0 +1,115 @@
+@media only screen and (max-width: 1280px) {
+
+  .buttons{
+    flex-flow: column;
+    justify-content: flex-end;
+  }
+  .grad{
+    justify-content: flex-end;
+  }
+  .buttons a{
+    width: 100%;
+    margin-top: 1rem;
+  }
+  h1{
+    font-size: 1.4rem;
+  }
+  h2{
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (max-width: 1000px){
+  .first{
+    flex-flow: column;
+  }
+  .first .column{
+    width: 100% !important;
+    height: 25rem;
+  }
+  h1{
+    padding-top: 3rem;
+  }
+  .r{
+    height: 15rem !important;
+  }
+  .section{
+    height: auto;
+  }
+  .buttons{
+    flex-flow: row;
+    justify-content: space-between;
+  }
+  .filled{
+    margin-right: 2rem;
+  }
+  .r br{
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px){
+  .features{
+    flex-flow: column;
+  }
+  .features .column{
+    width: 100%;
+  }
+  .mobile-centered{
+    align-items: center;
+    justify-content: center;
+  }
+  .reviews{
+    box-sizing: border-box;
+    padding: 3rem;
+    padding-bottom: 5rem;
+    flex-flow: column;
+    width: 100%;
+  }
+  .reviews .column{
+    width: 100%;
+  }
+  .reviews h1{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2rem;
+    width: 100%;
+    text-align:center;
+  }
+  .reviews h1 br{
+    display: none;
+  }
+  .two{
+    flex-flow: column;
+    width: 100%;
+  }
+  .box{
+    width: 100%;
+    margin-top:0;
+    margin-bottom: 0;
+  }
+  .partners img{
+    height: 25px;
+  }
+  .footer{
+    flex-flow: column;
+  }
+  .footer a{
+    text-align: left;
+  }
+  .pair{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+  }
+  .pair .column{
+    padding: 1rem;
+  }
+  .slider{
+    display: none;
+  }
+  .first .column{
+    height: auto;
+  }
+  .features img{
+    height: 4rem;
+  }
+}
