@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[1],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["success-success-module"],{
 
 /***/ "./src/app/success/success-routing.module.ts":
 /*!***************************************************!*\
@@ -133,4 +133,4 @@ var SuccessModule = /** @class */ (function () {
 /***/ })
 
 }]);
-//# sourceMappingURL=1.js.map
+//# sourceMappingURL=success-success-module.js.map

@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[0],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["payment-widget-payment-widget-module"],{
 
 /***/ "./node_modules/@angular/cdk/esm5/a11y.es5.js":
 /*!****************************************************!*\
@@ -66750,4 +66750,4 @@ var PaymentWidgetModule = /** @class */ (function () {
 /***/ })
 
 }]);
-//# sourceMappingURL=0.js.map
+//# sourceMappingURL=payment-widget-payment-widget-module.js.map

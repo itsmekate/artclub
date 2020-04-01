@@ -5,21 +5,37 @@
   !*** ./src/$$_lazy_route_resource lazy namespace object ***!
   \**********************************************************/
 /*! no static exports found */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncaught exception popping up in devtools
-	return Promise.resolve().then(function() {
-		var e = new Error("Cannot find module '" + req + "'");
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
+var map = {
+	"./payment-widget/payment-widget.module": [
+		"./src/app/payment-widget/payment-widget.module.ts",
+		"payment-widget-payment-widget-module"
+	],
+	"./success/success.module": [
+		"./src/app/success/success.module.ts",
+		"success-success-module"
+	]
+};
+function webpackAsyncContext(req) {
+	var ids = map[req];
+	if(!ids) {
+		return Promise.resolve().then(function() {
+			var e = new Error("Cannot find module '" + req + "'");
+			e.code = 'MODULE_NOT_FOUND';
+			throw e;
+		});
+	}
+	return __webpack_require__.e(ids[1]).then(function() {
+		var id = ids[0];
+		return __webpack_require__(id);
 	});
 }
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
+webpackAsyncContext.keys = function webpackAsyncContextKeys() {
+	return Object.keys(map);
+};
+webpackAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
+module.exports = webpackAsyncContext;
 
 /***/ }),
 
@@ -40,8 +56,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var routes = [
-    { path: '', loadChildren: function () { return __webpack_require__.e(/*! import() */ 0).then(__webpack_require__.bind(null, /*! ./payment-widget/payment-widget.module */ "./src/app/payment-widget/payment-widget.module.ts")).then(function (m) { return m.PaymentWidgetModule; }); } },
-    { path: 'success', loadChildren: function () { return __webpack_require__.e(/*! import() */ 1).then(__webpack_require__.bind(null, /*! ./success/success.module */ "./src/app/success/success.module.ts")).then(function (m) { return m.SuccessModule; }); } },
+    { path: '', loadChildren: './payment-widget/payment-widget.module#PaymentWidgetModule' },
+    { path: 'success', loadChildren: './success/success.module#SuccessModule' },
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
